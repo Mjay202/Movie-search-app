@@ -35,11 +35,11 @@ import errorpic from "../404-boy.jpg"
           </div>
         </div> */}
       <div className="col mb-4">
-        <div class="card bg-transparent border-dange rounded-lg m-1 mt-3" >
+        <div className="card bg-transparent border-dange rounded-lg m-1 mt-3" >
           <img src={movie.Poster}  alt={movie.Title} className='img-fluid card-img-top'/>
-          <div class="card-body text-white b-color">
+          <div className="card-body text-white b-color">
             <h5 className="card-title">{movie.Title}</h5>
-            <p class="card-text">{movie.Type}</p>
+            <p className="card-text">{movie.Type}</p>
           </div>
           <div className="card-footer text-muted text-white b-color">
             <h5 className="text-center">{movie.Year}</h5>
