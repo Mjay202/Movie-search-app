@@ -13,21 +13,38 @@ import errorpic from "../404-boy.jpg"
           </div>
           <img src={movie.Poster} alt={movie.Title} className="img-fluid"/>
        </div> */}
-       <div className="col">
-          <div className="card bg-transparent border-danger shadow-box m-1" >
+       {/* <div className="col">
+          <div className="mb-4">
+          <div className="card h-100 bg-transparent border-danger rounded-lg m-1 mt-3" >
             <div className="row no-gutters">
               <div className="col-md-5">
                 <img src={movie.Poster} alt={movie.Title} className="img-fluid m-image"/>
               </div>
-              <div className="col-md-7 bg-dark ">
+              <div className="col-md-7 b-color ">
                 <div className="card-body text-white">
                   <h5 className="card-title">{movie.Title}</h5>
                   <p className="card-text">{movie.Plot}</p>
                   <p className="card-text"><small className="text-muted">{movie.Year}</small></p>
                 </div>
+                <div className="card-footer">
+                  <h4>{movie.Type}</h4>
+                </div>
               </div>
             </div>
           </div>
+          </div>
+        </div> */}
+      <div className="col mb-4">
+        <div class="card bg-transparent border-dange rounded-lg m-1 mt-3" >
+          <img src={movie.Poster}  alt={movie.Title} className='img-fluid card-img-top'/>
+          <div class="card-body text-white b-color">
+            <h5 className="card-title">{movie.Title}</h5>
+            <p class="card-text">{movie.Type}</p>
+          </div>
+          <div className="card-footer text-muted text-white b-color">
+            <h5 className="text-center">{movie.Year}</h5>
+          </div>
+        </div>
         </div>
     </>
   )
