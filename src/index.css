@@ -17,7 +17,7 @@ body {
 }
 
 .search {
-  width: 40%;
+  width: 50%;
 }
 
 .movie {
@@ -31,10 +31,18 @@ body {
   flex-direction: row;
 }
 
+.b-color{
+  background-color: rgb(34, 32, 32);
+  background-blend-mode: lighten;
+  
+}
+
 .m-image{
   min-height: 100%;
+  min-width: 100%;
 
 }
+
 @media screen and (min-width: 694px) and (max-width: 915px) {
   .movie {
     max-width: 33%;
