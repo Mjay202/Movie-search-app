@@ -1,13 +1,41 @@
-
 body {
-  background-image: url(./Netflix2.jpg);
-  background-color: #282c34;
-  background-blend-mode:lighten;
+  background-color: black;
 }
 
-.header-title {
+.welcome{
+  background-image: url(./Netflix2.jpg);
+  background-color: red;
+  background-blend-mode:darken;
+}
+
+.source-text {
+  font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.movie-title {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sub-source-text {
+  font-family: 'Lobster Two', cursive;
+  font-size: 25px;
+}
+
+.another-text {
+  font-size: 35px;
+}
+
+.success-text{
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+}
+
+.big-font {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
 }
 
 .header, .search {
@@ -17,48 +45,33 @@ body {
 }
 
 .search {
-  width: 50%;
+  width: 75%;
 }
 
-.movie {
-  padding: 5px 25px 10px 25px;
-  max-width: 25%;
-}
-
-.movies {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+nav {
+  background-color: black;
 }
 
 .b-color{
-  background-color: rgb(34, 32, 32);
-  background-blend-mode: lighten;
-  
+  background-color:black;
+  /* opacity: 0.2;   */
 }
 
 .m-image{
   min-height: 100%;
   min-width: 100%;
-
-}
-
-@media screen and (min-width: 694px) and (max-width: 915px) {
-  .movie {
-    max-width: 33%;
-  }
-}
-
-@media screen and (min-width: 652px) and (max-width: 693px) {
-  .movie {
-    max-width: 50%;
-  }
 }
 
 
-@media screen and (max-width: 651px) {
+/* @media screen and (max-width: 500px) {
   .movie {
     max-width: 100%;
     margin: auto;
   }
-}
+  .source-text {
+    font-size: 40px;
+  }
+  .search {
+
+  }
+} */
