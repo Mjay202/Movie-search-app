@@ -28,6 +28,7 @@ function App() {
     .then(response=>{
       setmovies(response.data.Search)
       setisLoading(false)
+      
     })
   }, [])
 
@@ -63,7 +64,7 @@ function App() {
           <Search search={search}/>
             <div className="row row-cols-1 row-cols-lg-2 mt-3">
               <div className="col p-4">
-                <h2 className='source-text mt-4'>Welcome.</h2> 
+                <h2 className='source-text mt-4'>Welcome</h2> 
                 <br />
                 <h4 className='source-text another-text'> Camun Studio is your number one web to search for your favourite movies. </h4>
                 <br />

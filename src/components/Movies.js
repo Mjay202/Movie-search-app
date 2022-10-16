@@ -1,5 +1,5 @@
 import React from 'react'
-import errorpic from "../404-boy.jpg"
+
 
   // get props.movie
   const Movies = ({movie, index}) => {
