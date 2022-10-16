@@ -9,7 +9,7 @@ import axios from "axios"
 function App() {
 
   // Movie URL
-  const endpoint = "http://www.omdbapi.com/?apikey=a3ad1c44&s=iron"
+  const endpoint = "https://www.omdbapi.com/?apikey=a3ad1c44&s=iron"
   
   // VAR to check if data is loading
   const [isLoading, setisLoading] = useState(true)
@@ -38,7 +38,7 @@ function App() {
   const search =(searchInput)=>{
     setisLoading(true)
     seterrormessage(null)
-    const searchEndpoint = `http://www.omdbapi.com/?apikey=a3ad1c44&s=${searchInput}`
+    const searchEndpoint = `https://www.omdbapi.com/?apikey=a3ad1c44&s=${searchInput}`
     
     axios.get(searchEndpoint)
     .then(response =>{
